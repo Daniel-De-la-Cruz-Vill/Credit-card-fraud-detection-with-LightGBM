@@ -53,4 +53,6 @@ each one to determine which technique offered the best performance.
 
 ### Model optimization
 
-
+After determining the data imbalance handling technique that provided the best results, we proceeded to perform hyperparameter tuning of the LightGBM model. This was done using
+the hyperopt library, which provides tools for performing Bayesian optimization. A simple way to define this form of optimization is that the hyperparameters are chosen based on the
+probability that they will generate better performance based on the performance of previous hyperparameters. After tuning, precision of the model increased considerably.
