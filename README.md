@@ -1,7 +1,5 @@
 # Detecting fraudulent credit card transactions with LightGBM
 
-![image](https://github.com/Daniel-De-la-Cruz-Vill/Credit-card-fraud-detection-with-LightGBM/assets/157164355/695fba8d-d929-4043-b59e-ebe293856d81)
-
 ## Fraud detection and imbalanced data
 Fraud detection is one of the most common problems addressed with Machine Learning. An ML model can detect frauds in data by training itself on a large number
 of samples and understanding their common patterns, thus being able to detect anomalies. Usually, these anomalies represent a very small minority in the data,
