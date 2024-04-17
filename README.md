@@ -3,8 +3,8 @@
 ## Fraud detection and imbalanced data
 Fraud detection is one of the most common problems addressed with Machine Learning. An ML model can detect frauds in data by training itself on a large number
 of samples and understanding their common patterns, thus being able to detect anomalies. Usually, these anomalies represent a very small minority in the data,
-which leads to an imbalance problem. ML models have trouble training on imbalanced data because they make it so that, if the model simply predicts that none
-of the data is fraudulent, the model obtains high accuracy scores without learning to detect frauds. Therefore, various techniques have been developed to handle
+which leads to an imbalance problem. ML models have trouble training on imbalanced data because, by predicting that none
+of the data is fraudulent, models obtain high accuracy scores without learning to detect frauds. Therefore, various techniques have been developed to handle
 this case.
 
 ## The project
