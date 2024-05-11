@@ -23,7 +23,7 @@ PCA transformations and their background and meaning were not provided. This mad
 
 ### Feature selection
 
-There were 30 features in the dataset that could possibly help the model predict whether a transaction is fraudulent or not. There are several ways to determine whether a
+There were 30 features in the dataset that could help the model predict whether a transaction is fraudulent. There are several ways to determine whether a
 feature should be used as a predictor. In this case, the Pearson correlation coefficient was used to eliminate the features with low correlation from the dataset. This led
 to better performance because it makes the model learn from features that we know are useful instead of letting it determine it by itself. After feature selection, we only work
 with 15 features.
