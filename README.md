@@ -39,8 +39,8 @@ After doing this, model performance increased considerably. That being said, rem
 
 ### Handling data imbalance
 
-The prepared dataset was then split into a train and test set. At this point is where three techniques were employed for handling the data imbalance problem: random undersampling,
-random oversampling, and SMOTE. The techniques consist of the following:
+The prepared dataset was then split into a train and test set. At this point, three techniques were employed for handling the data imbalance problem: random undersampling,
+random oversampling, and SMOTE. They consist of the following:
 
 * Random undersampling: removing random samples of the majority class until its number equals that of the minority class.
 * Random oversampling: repeating random samples of the minority class until its number equals that of the majority class.
